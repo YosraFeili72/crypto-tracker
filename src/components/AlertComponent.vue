@@ -39,6 +39,7 @@ const isAlert = ref(true)
 
 function setStatus () {
   let res = ''
+  console.log('ffff')
   switch (props.status) {
     case 'success':
       res = 'text-green-800 border-t-4 border-green-300 bg-green-100/90'
