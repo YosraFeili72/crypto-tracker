@@ -80,8 +80,6 @@ const filterList = () => {
   searchResults.value = listOfCryptoData.value.filter(crypto => crypto.name.toLowerCase().includes(searchTerm) || crypto?.symbol.toLowerCase().includes(searchTerm))
 }
 
-
 const filteredCryptoData = computed(() => searchResults.value)
-
 
 </script>

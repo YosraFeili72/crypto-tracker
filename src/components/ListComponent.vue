@@ -28,7 +28,7 @@
             v-text="data?.symbol" />
         <td
             class="px-6 py-4"
-            v-text="data?.current_price" />
+            v-text="'$' + data?.current_price" />
       </tr>
       </tbody>
     </table>
